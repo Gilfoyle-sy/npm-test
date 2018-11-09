@@ -1,0 +1,27 @@
+{
+  "name": "omh-sy-sytest",
+  "version": "0.1.4",
+  "description": "测试发布NPM",
+  "main": "lib/sytest.umd.min.js",
+  "keyword": "sytest",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+	"lib": "vue-cli-service build --target lib --name sytest --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-pwa": "^3.1.1",
+    "@vue/cli-service": "^3.1.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
